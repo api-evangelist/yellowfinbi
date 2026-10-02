@@ -1,28 +1,110 @@
 aid: yellowfinbi
+
 name: Yellowfin
-description: 'Yellowfin is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.yellowfinbi.com/assets/files/2024/06/cropped-YF-Digital-Badge-2024-FINAL-1.png
+
+description: Yellowfin provides an embedded analytics and business intelligence platform that enables organizations to create interactive dashboards,
+  reports, and data stories. Its public REST API lets developers integrate content, manage users, and embed analytics into their own applications,
+  supporting a range of data visualisation and storytelling capabilities.
+
 url: https://raw.githubusercontent.com/api-evangelist/yellowfinbi/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:new-submission
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-02 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-02'
+
 modified: '2026-10-02'
+
 tags:
 - Company
-apis: []
+- Analytics
+- Business Intelligence
+- Embedded
+- Data Visualization
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/yellowfinbi-changelog.yml
+- type: LLMsTxt
+  url: llms/yellowfinbi-llms.txt
+- type: WellKnown
+  url: well-known/yellowfinbi-well-known.yml
+- type: Hosts
+  url: hosts/yellowfinbi-hosts.yml
+- type: Vendors
+  url: vendors/yellowfinbi-vendors.yml
+- type: SDKs
+  url: packages/yellowfinbi-packages.yml
+- type: Packages
+  url: packages/yellowfinbi-packages.yml
+- type: Security
+  url: https://www.yellowfinbi.com/evaluation-guide/security
+- type: Roadmap
+  url: https://www.yellowfinbi.com/resources-tags/roadmap
+- type: Newsroom
+  url: https://www.yellowfinbi.com/company/newsroom
+- type: Login
+  url: https://community.yellowfinbi.com/login
+- type: DeveloperPortal
+  url: https://developers.yellowfinbi.com/
+- type: ChangeLog
+  url: https://www.yellowfinbi.com/releases
+- type: GettingStarted
+  url: https://www.yellowfinbi.com/suite/mobile-bi/setup/form
+- type: GitHubOrganization
+  url: https://github.com/YellowfinBI
+- type: DomainSecurity
+  url: security/yellowfinbi-domain-security.yml
 - type: Website
   url: https://www.yellowfinbi.com/
 - type: Documentation
   url: https://wiki.yellowfinbi.com/space/yfcurrent/2200018/REST+API
+- type: Blog
+  url: https://www.yellowfinbi.com/blog
+- type: Pricing
+  url: https://www.yellowfinbi.com/pricing
+- type: Support
+  url: https://www.yellowfinbi.com/contact
+- type: PrivacyPolicy
+  url: https://www.yellowfinbi.com/privacy
+
+apis:
+- name: Yellowfin REST API
+  description: Public REST API exposing endpoints for reports, dashboards, stories, users and administration features.
+  humanURL: https://wiki.yellowfinbi.com/space/yfcurrent/2200018/REST%20API
+  aid: yellowfinbi:yellowfin-rest-api
+
 x-submission-notes: Embedded analytics / BI platform with a REST API for content, users and embedding.
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: The provider's documentation is markdown pages without a published OpenAPI or other machine‑readable contract.
+  evidence:
+  - url: https://wiki.yellowfinbi.com/space/yfcurrent/2200018/REST%20API
+    status: 200
+  checked: '2026-10-02'
+
 x-submission-probe: root 200; wiki REST API page 200; no public OpenAPI found; 404 probe 404
+
 x-submitted-by: viktor.sarmin@yellowfinbi.com (apis.io/add, 2026-09-29)
+x-enrichment:
+  date: '2026-10-02'
+  status: enriched
+  artifacts_added: 14
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

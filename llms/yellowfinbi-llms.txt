@@ -1,0 +1,25 @@
+# Refined for Cloud
+
+LLM-optimized index. Confluence: add `.md` to page URLs (e.g. `/space/TEAM/426300.md`). Space `.md` URLs return a page index. Refined landing pages: `/page/{slug}.md`. Site overview: `/index.md`.
+
+## Site structure
+
+- [Refined Site](https://wiki.yellowfinbi.com/index.md) — Site overview
+
+  - **Directory**
+    - [Yellowfin Guide 9](https://wiki.yellowfinbi.com/space/yfcurrent/) — Space key: `yfcurrent`
+      - Index: [yfcurrent.md](https://wiki.yellowfinbi.com/space/yfcurrent.md)
+    - [Older versions](https://wiki.yellowfinbi.com/page/ovs.md)
+      - [Yellowfin Guide 8](https://wiki.yellowfinbi.com/space/user80/) — Space key: `user80`
+        - Index: [user80.md](https://wiki.yellowfinbi.com/space/user80.md)
+      - [Yellowfin Guide 7.4](https://wiki.yellowfinbi.com/space/USER74/) — Space key: `USER74`
+        - Index: [USER74.md](https://wiki.yellowfinbi.com/space/USER74.md)
+      - [Yellowfin Guide 7.3](https://wiki.yellowfinbi.com/space/USER73Plus/) — Space key: `USER73Plus`
+        - Index: [USER73Plus.md](https://wiki.yellowfinbi.com/space/USER73Plus.md)
+      - [Yellowfin Guide 7.2](https://wiki.yellowfinbi.com/space/USER72/) — Space key: `USER72`
+        - Index: [USER72.md](https://wiki.yellowfinbi.com/space/USER72.md)
+      - [Yellowfin Guide 7.1](https://wiki.yellowfinbi.com/space/USER71/) — Space key: `USER71`
+        - Index: [USER71.md](https://wiki.yellowfinbi.com/space/USER71.md)
+
+---
+Generated: 2026-10-02T09:47:33.300Z

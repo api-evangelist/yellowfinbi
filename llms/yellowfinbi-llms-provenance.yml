@@ -1,0 +1,6 @@
+generated: '2026-10-02'
+method: probed
+generator: harvest-llms.py
+source: https://wiki.yellowfinbi.com/llms.txt
+bytes: 1493
+note: saved verbatim; the provider's own document

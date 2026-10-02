@@ -1,0 +1,33 @@
+generated: '2026-10-02'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/YellowfinBI
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (security/yellowfinbi-domain-security.yml,
+  yellowfinbi.com) or its accepted GitHub org (YellowfinBI).'
+packages:
+- name: async-httpclient-yf
+  registry: github
+  url: https://github.com/YellowfinBI/async-httpclient-yf
+  language: Java
+  official: true
+  version: null
+  published: '2017-06-07'
+  source_repo: https://github.com/YellowfinBI/async-httpclient-yf
+  evidence: repository in github.com/YellowfinBI, whose profile names the provider's domain
+- name: java-gitlab-api-yf
+  registry: github
+  url: https://github.com/YellowfinBI/java-gitlab-api-yf
+  language: HTML
+  official: true
+  version: null
+  published: '2017-06-07'
+  source_repo: https://github.com/YellowfinBI/java-gitlab-api-yf
+  evidence: repository in github.com/YellowfinBI, whose profile names the provider's domain
+- name: yellowfin
+  registry: pypi
+  url: https://pypi.org/project/yellowfin/
+  language: Python
+  official: false
+  version: 1.0.2
+  published: '2015-03-11'
+  evidence: 'name match only: the metadata names neither the provider''s domain nor its GitHub org'

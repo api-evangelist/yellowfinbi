@@ -1,0 +1,28 @@
+generated: '2026-10-02'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.yellowfinbi.com/webinar/yellowfin-918-whats-new
+sources:
+- https://www.yellowfinbi.com/webinar/yellowfin-918-whats-new
+- https://www.yellowfinbi.com/campaign/yellowfin-9-whats-new
+- https://www.yellowfinbi.com/campaign/the-power-bi-alternative-yellowfin-migration-guide
+- https://www.yellowfinbi.com/campaign/9-2-release-notes
+entries:
+- breaking: false
+  highlights:
+  - Yellowfin BI 9.18 is here, introducing our biggest AI enhancement yet and taking Conversational Analytics far beyond natural language queries.
+  - The new Conversational Analytics experience enables users to build reports using natural language, generate comprehensive analytical Stories,
+    ask contextual follow‑up questions, and explore data through a single AI‑powered workspace.
+  - Includes Responsive UI enhancements, administration improvements, and platform updates.
+  version: '9.18'
+- breaking: false
+  highlights:
+  - 'Yellowfin 9.2 delivers new enhancements in three key areas: JavaScript API, REST API, Yellowfin Signals.'
+  - Provides major innovations on new embedded BI and analytical app development capabilities, solidifying Yellowfin as the platform for analytical
+    application development.
+  - '"The 9.2 release raises the bar again – developers now have the full range of tools at their disposal to create compelling embedded analytics
+    experiences for their customers with minimum amount of effort and coding."'
+  version: '9.2'
+current_version: '9.18'
+note: Versioning scheme follows Yellowfin BI 9.x releases.
+docs: https://www.yellowfinbi.com/webinar/yellowfin-918-whats-new

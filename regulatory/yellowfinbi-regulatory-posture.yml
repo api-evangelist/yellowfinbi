@@ -1,0 +1,50 @@
+generated: '2026-10-02'
+method: probed
+source:
+  - https://www.ideracorp.com/Legal/PrivacyPolicy
+signals:
+  data_subject_request:
+    - evidence:
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Can you request to receive a copy of the Personal Data we have collected about you? YES."
+          note: Users can request a copy of their personal data.
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Can you request to have your Personal Data deleted? YES."
+          note: Users can request deletion of their data.
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Can you withdraw your consent to our processing of your Personal Data? YES."
+          note: Users can withdraw consent.
+  subprocessors:
+    - evidence:
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Do we share Personal Data? YES. Our Company does share Personal Data with the companies of our corporate group if we believe you will benefit from such recommendation."
+          note: Indicates sharing with subprocessors/affiliates.
+  privacy_rights:
+    - evidence:
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Can you request not to have your Personal Data shared with Idera affiliates? YES."
+          note: Right to opt-out of sharing with affiliates.
+  data_security:
+    - evidence:
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Do we protect your Personal Data? YES."
+          note: Commitment to protect data.
+  cookies_tracking:
+    - evidence:
+        - source: https://www.ideracorp.com/Legal/PrivacyPolicy
+          http_status: 200
+          fetched: true
+          quote: "Do we use cookies or similar tracking technologies on our websites? YES."
+          note: Uses cookies on website and apps.
