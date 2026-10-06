@@ -21,7 +21,7 @@ specificationVersion: '0.20'
 
 created: '2026-10-02'
 
-modified: '2026-10-02'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -37,6 +37,10 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.yellowfinbi.com/company/blog
+  type: Blog
+- url: https://www.yellowfinbi.com/company/blog/feed
+  type: BlogRSS
 - type: ChangeLog
   url: changelog/yellowfinbi-changelog.yml
 - type: LLMsTxt
